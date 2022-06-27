@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+
+.dd{
+   display:flex ; 
+    padding-top: 7%;
+    /* justify-content: center;
+    min-height: 100vh;
+     */
+     justify-content: center;
+    position: relative;
+    /* background-color: #3498db; */
+
+}
+
+
+.dragarea{
+    border: 2px dashed rgba(15, 15, 15, 0.733);
+    height: 300px;
+    width: 600px;
+    border-radius: 5px;
+    display: flex;
+   align-items: center; 
+    justify-content: center;
+    flex-direction: column;  
+ 
+}
+
+.dragarea .icon{
+    font-size: 80px;
+    padding-bottom: 10px;
+    
+}
+
+.dragarea header{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+}
+.dragarea span{
+    font-size: 15px;
+    margin: 10px 0 15px 0;
+    font-weight: 500;
+}
+
+
+.container{
+    text-align: center;
+}
+.btn{
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px;
+    font-size: 15px;
+   cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn1{
+color: #3498db;
+
+}
+
+.btn1:hover{
+    color: #fff;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn1::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.btn1:hover::before{
+    height: 180%;
+
+}
+
+@media screen and (
+    max-width:1024px ){
+        .dragarea{
+            flex-direction: column;
+            height: 200px;
+            width: 300px;
+            align-items: center;
+            margin-top: 5vh;
+            
+        }
+        .dragarea .icon{
+            font-size: 50px;
+        }
+
+        .btn{
+            font-size: 10px;
+            margin: 5px;
+        }
+}
+
+
+.dragarea.active{
+    border: 2px solid rgba(15, 15, 15, 0.733) ;
+}
+
+.dragarea img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.icon1{
+    padding-left: 1%;
+    font-size: px;
+}
+
+.cnclbtn{
+    background-color: #fff;
+    border: none; 
+ 
+    
+}
+

@@ -1,0 +1,52 @@
+/* body {
+    font-family: 'Open Sans';
+    font-style: regular;
+} */
+
+body{
+    background-color: #000;
+}
+
+h1 {
+    font-family: 'Lato';
+    font-style: bold;
+}
+
+.navbar-brand {
+    font-family: 'Lato';
+    font-style: bold;
+    letter-spacing: 2px;
+}
+ 
+.divbody{
+    font-family: 'Open Sans';
+    font-style: regular;
+} 
+
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
+    
+}
+
+.place {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  }
+
+.combine-submit {
+    letter-spacing: 1.2px;
+}
+

@@ -1,0 +1,32 @@
+Fonts Names - 
+
+Open Sans
+    Light 300
+    Regular 400
+    Medium 500
+    SemiBold 600
+    Bold 700
+    ExtraBold 800
+
+Lato
+    Bold 700
+    Black 900
+
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+</style>
+
+
+
+Icons
+
+<script src="https://kit.fontawesome.com/0ad71fe956.js" crossorigin="anonymous"></script>
+
+<i class="fa-solid fa-palette"></i>
